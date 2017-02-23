@@ -1,0 +1,10 @@
+{
+  //seee https://go.microsoft.com/fwlink/?LinkId=733558
+  //for the documentation about the task.json format
+  "version": "0.1.0",
+  "command":"tsc",
+  "isShelCommand": true,
+  "args":["-p", "."],
+  "showOutput": "silent",
+  "problemMatcher": "$tsc"
+}
