@@ -11,8 +11,11 @@
       "name": "启动程序",
       "program": "${workspaceRoot}/src/index.ts",
       "cwd": "${workspaceRoot}",
-      "sourceMaps": true,
-      "outFiles": ["${workspaceRoot}/debug"]
+      "outFiles":[
+        // need * , if not it's a directory
+        "${workspaceRoot}/built/*"
+      ],
+      "sourceMaps": true
     },
     {
       "type": "node",

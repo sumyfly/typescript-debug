@@ -20,8 +20,6 @@ function sortByName(a: Person[]) {
   return result
 }
 
-
-
 let data = sortByName([{ name: "wong", age: 43 }, { name: 'Edward', age: 55 }])
 
-export  {Person, sortByName, Color}
+export { Person, sortByName, Color }
