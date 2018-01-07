@@ -10,6 +10,7 @@
       "request": "launch",
       "name": "启动程序",
       "program": "${workspaceRoot}/src/index.ts",
+      "preLaunchTask": "tsc", // use preLaunchTask or tsc or webpack to compile typescript source.
       "cwd": "${workspaceRoot}",
       "outFiles":[
         // need * , if not it's a directory
